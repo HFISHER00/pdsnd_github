@@ -7,7 +7,7 @@
 Bikeshare Python Project - Harry Fisher
 
 ### Description
-Displays bikeshare data in different cities with many data points included such as gender and time.
+Displays bikeshare data (based on user request) in different cities with many data points included such as location and time.
 
 ### Files used
 chicago.csv
