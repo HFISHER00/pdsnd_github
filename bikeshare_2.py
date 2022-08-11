@@ -46,7 +46,7 @@ def get_filters():
         if month in lc_months:
             valid_month += 1
         else: 
-            month = input("Not a valid month, try again. Enter all or specific month: ").lower()
+            month = input("Not a valid month, please try again. Enter all or specific month: ").lower()
     
     # get user input for day of week (all, monday, tuesday, ... sunday)
     valid_day = 0
@@ -60,7 +60,7 @@ def get_filters():
         if day in lc_days:
             valid_day += 1
         else:
-            day = input("Not a valid day, try again. Enter all or specific day: ").lower()
+            day = input("Not a valid day, please try again. Enter all or specific day: ").lower()
 
     print('-'*40)
     return city, month, day
