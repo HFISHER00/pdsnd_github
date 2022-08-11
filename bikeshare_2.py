@@ -261,7 +261,7 @@ def num_to_month_convert(number):
 
 
 def num_to_day_convert(number):
-    """Converts number to corresponding day name"""
+    """Converts number to corresponding day of the week"""
 
     day = DAYS[number]
     
