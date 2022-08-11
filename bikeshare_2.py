@@ -231,11 +231,11 @@ def user_stats(df, city):
         # incase NaN is a result
         birth_years = df['Birth Year'].dropna()
         
-        # Oldest person birth year
+        # Year of birth for oldest person
         earliest_year = birth_years.min()
         print("\nThe earliest birth year: " + str(earliest_year))
         
-        # Youngest person birth year
+        # Year of birth for youngest person
         latest_year = birth_years.max()
         print("The most recent birth year: " + str(latest_year))
         
