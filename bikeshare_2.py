@@ -294,7 +294,7 @@ def main():
             see_data = input('\nWould you like to see more data? Enter yes or no.\n').lower()
             rows_shown += 5
             if rows_shown > len(df):
-                print("Sorry, no more raw data.")
+                print("Sorry, there is no more raw data.")
                 see_data = 'no'
             
         restart = input('\nWould you like to restart? Enter yes or no.\n')
